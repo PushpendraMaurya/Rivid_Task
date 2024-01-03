@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "ridiv-assign"
+version = "0.1.0"
+description = "About Ridiv Technologies: Ridiv Technologies is an AI Development Agency,  based in Noida, India, specialising in AI Apps, SaaS development, cloud services, and digital solutions."
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+django = "^5.0.1"
+djangorestframework = "^3.14.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
